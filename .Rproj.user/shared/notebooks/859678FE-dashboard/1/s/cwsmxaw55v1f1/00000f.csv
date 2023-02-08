@@ -1,0 +1,7 @@
+"0","# Importing Data"
+"0","data <- read_csv('books.csv', show_col_types = FALSE)"
+"0",""
+"0","# Removing Duplicates"
+"0","data <- data %>%"
+"0","  distinct(Name, .keep_all = TRUE) %>%"
+"0","  rename(User_Rating = 'User Rating')"

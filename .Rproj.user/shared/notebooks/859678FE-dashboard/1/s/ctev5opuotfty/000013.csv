@@ -1,0 +1,12 @@
+"0","# Colors"
+"0","custom_colors <- viridis::plasma(n=15)"
+"0",""
+"0","# Most popular books by reviews"
+"0","data %>%"
+"0","  arrange(desc(Reviews)) %>%"
+"0","  head(15) %>%"
+"0","  hchart('bar', hcaes(x = Name Books, y = Reviews, color = custom_colors)) %>%"
+"2","Error: unexpected symbol in:
+""  head(15) %>%
+  hchart('bar', hcaes(x = Name Books""
+"
